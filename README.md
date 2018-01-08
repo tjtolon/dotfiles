@@ -44,3 +44,9 @@ Tämän hetken asetelma on seuraavanlainen:
 * Window manager `i3`
 
 ## Asennus
+
+Kirjoita myöhemmin
+
+## Kuinka käyttää GNU Stowia
+
+En muista, kirjoita myöhemmin
