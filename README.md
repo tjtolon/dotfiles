@@ -50,7 +50,7 @@ Kirjoita myöhemmin
 ## Kuinka käyttää GNU Stowia
 
 Laita kaikki tiedostot oman puunsa mukaisesti kotihakemistoon. Suorita repon juuressa
-`stow -v -t ~`
+`stow -v -t ~ --ignore='README.md' --ignore='install.sh'`
 
 Poista käytöstä
 `stow -v -D -t ~`
