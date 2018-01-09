@@ -49,4 +49,8 @@ Kirjoita myöhemmin
 
 ## Kuinka käyttää GNU Stowia
 
-En muista, kirjoita myöhemmin
+Laita kaikki tiedostot oman puunsa mukaisesti kotihakemistoon. Suorita repon juuressa
+`stow -v -t ~`
+
+Poista käytöstä
+`stow -v -D -t ~`
