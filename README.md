@@ -42,6 +42,10 @@ Tämän hetken asetelma on seuraavanlainen:
 * Text editor `emacs/spacemacs`
 * Terminal emulator `gnome-terminal`
 * Window manager `i3`
+* Font for spacemacs `Source Code Pro`
+* Pycharm
+* Clion
+
 
 ## Asennus
 
@@ -53,4 +57,4 @@ Laita kaikki tiedostot oman puunsa mukaisesti kotihakemistoon. Suorita repon juu
 `stow -v -t ~ dotfiles`
 
 Poista käytöstä
-`stow -v -D -t ~`
+`stow -v -D -t ~ dotfiles`
