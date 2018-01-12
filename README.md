@@ -23,10 +23,10 @@ konfiguraatiotiedostoja. Tällä hetkellä olen päätynyt siihen, että tiedost
 pysyvät oman repon sisällä, ja oikeissa sijainneissa käytetään symbolisia
 linkkejä ohjaamaan näihin tiedostoihin. Tätä varten käytetään `GNU Stow`
 ohjelmaa. Vastaavanlainen lähestymistapa on
-käytössä [https://github.com/mohabaks/dotfiles](tällä henkilöllä), josta olen
+käytössä [tällä henkilöllä](https://github.com/mohabaks/dotfiles), josta olen
 ottanut
 mallia.
-[https://developer.atlassian.com/blog/2016/02/best-way-to-store-dotfiles-git-bare-repo/](Vaihtoehtoinen lähestymistapa) olisi
+[Vaihtoehtoinen lähestymistapa](https://developer.atlassian.com/blog/2016/02/best-way-to-store-dotfiles-git-bare-repo/) olisi
 ollut tehdä oma komento, joka ikään kuin toimisi kuin että repo eläisi
 kotihakemiston alla.
 
@@ -50,7 +50,7 @@ Kirjoita myöhemmin
 ## Kuinka käyttää GNU Stowia
 
 Laita kaikki tiedostot oman puunsa mukaisesti kotihakemistoon. Suorita repon juuressa
-`stow -v -t ~ --ignore='README.md' --ignore='install.sh'`
+`stow -v -t ~ dotfiles`
 
 Poista käytöstä
 `stow -v -D -t ~`
