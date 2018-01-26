@@ -6,4 +6,4 @@ killall -q polybar
 while pgrep -x polybar >/dev/null; do sleep 2; done
 
 # Launch top bar
-polybar example 2> /dev/null &
+polybar $TATU_SETUP_POLYBAR_BAR 2> /dev/null &
