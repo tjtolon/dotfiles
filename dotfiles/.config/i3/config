@@ -157,7 +157,7 @@ bindsym $mod+r mode "resize"
 # }
 exec  xset +fp /home/tatu/.fonts
 exec  xset fp rehash
-exec --no-startup-id "zsh -c \\"$HOME/.local/bin/barstart &\\""
+exec_always --no-startup-id ~/.local/bin/barstart &
 exec --no-startup-id feh --bg-center /home/tatu/Pictures/wallpapers/abstract3.png
 bindsym $mod+F5 exec "backlight.sh -2"
 bindsym $mod+F6 exec "backlight.sh +2"
