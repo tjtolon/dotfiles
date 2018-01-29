@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-echo "Suoritetaan barstart" > $HOME/log/barstart
+echo "Suoritetaan barstart" > $HOME/dotfiles/log/barstart
 killall -q polybar
 
 
@@ -7,8 +7,8 @@ while pgrep -x polybar >/dev/null; do sleep 2; done
 
 # Launch top bar
 if [[ -z ${TATU_SETUP_POLYBAR_BAR+x} ]] ; then
-    echo "Muuttuja TATU_SETUP_POLYBAR_BAR on asettamatta" > $HOME/log/barstart
+    echo "Muuttuja TATU_SETUP_POLYBAR_BAR on asettamatta" > $HOME/dotfiles/log/barstart
     . ~/dotfiles/profile
 fi
 
-polybar $TATU_SETUP_POLYBAR_BAR > $HOME/log/barstart2 &
+polybar $TATU_SETUP_POLYBAR_BAR > $HOME/dotfiles/log/barstart2 &
