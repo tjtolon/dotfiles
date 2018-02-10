@@ -155,8 +155,6 @@ bindsym $mod+r mode "resize"
 # bar {
 #         status_command i3status
 # }
-exec  xset +fp /home/tatu/.fonts
-exec  xset fp rehash
 exec_always --no-startup-id ~/.local/bin/barstart &
 exec --no-startup-id feh --randomize --bg-center /home/tatu/Pictures/wallpapers/*
 bindsym $mod+F5 exec "backlight.sh -2"
