@@ -7,6 +7,7 @@ apt_packages = [
     "keepass2",
     "emacs",
     "stow",
+    "feh",
     # Required for polybar compiling
     "cmake",
     "cmake-data",
