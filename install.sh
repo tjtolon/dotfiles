@@ -49,6 +49,6 @@ if [[ ! -f $HOME/dotfiles/profile ]] ; then
     echo "ethernet rajapinta?"
     read eth_interface
     echo "TATU_SETUP_POLYBAR_BAR=$polybar_value" >> $HOME/dotfiles/profile
-    echo "TATU_SETUP_WIFI_INTERFAFCE=$wifi_interface" >> $HOME/dotfiles/profile
+    echo "TATU_SETUP_WIFI_INTERFACE=$wifi_interface" >> $HOME/dotfiles/profile
     echo "TATU_SETUP_ETHERNET_INTERFACE=$eth_interface" >> $HOME/dotfiles/profile
 fi

@@ -3,6 +3,8 @@ export PATH="$HOME/.local/bin:$PATH"
 export PATH=$PATH:$HOME"/pycharm-current/bin"
 export PATH=$PATH:$HOME"/clion-current/bin"
 export PATH=$PATH:$HOME"/.Nozbe"
+export PATH=$PATH:$HOME"/Telegram"
 export AWT_TOOLKIT=MToolkit
 export TERMINAL=gnome-terminal
+export LADIMO=/home/tatu/ladimo/ladimo-core/defaults
 . ~/dotfiles/profile
