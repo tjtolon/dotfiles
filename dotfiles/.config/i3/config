@@ -159,3 +159,5 @@ exec_always --no-startup-id ~/.local/bin/barstart &
 exec --no-startup-id feh --randomize --bg-center /home/tatu/Pictures/wallpapers/*
 bindsym $mod+F5 exec "backlight.sh -2"
 bindsym $mod+F6 exec "backlight.sh +2"
+
+for_window [id=35651586 title="demo"] floating enable
