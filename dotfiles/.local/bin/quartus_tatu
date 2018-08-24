@@ -1,0 +1,3 @@
+#!/bin/bash
+LD_LIBRARY_PATH=$HOME/intelFPGA/18.0/modelsim_ase/lib32 quartus
+
