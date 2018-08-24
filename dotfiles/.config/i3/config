@@ -158,7 +158,7 @@ bindsym $mod+r mode "resize"
 #         status_command i3status
 # }
 exec_always --no-startup-id ~/.local/bin/barstart &
-exec --no-startup-id feh --randomize --bg-center /home/tatu/Pictures/wallpapers/*
+exec --no-startup-id feh --randomize --bg-fill /home/tatu/Pictures/wallpapers/*
 bindsym $mod+F5 exec "backlight.sh -2"
 bindsym $mod+F6 exec "backlight.sh +2"
 
