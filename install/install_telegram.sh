@@ -1,6 +1,11 @@
 #!/bin/bash
 
-wget https://telegram.org/dl/desktop/linux || exit 1
-tar -xvf linux
-mv Telegram ~
-rm -fr linux
+if [[ ! -d ~/Telegram ]] ; do
+    wget https://telegram.org/dl/desktop/linux || exit 1
+    tar -xvf linux
+    mv Telegram ~
+    rm -fr linux
+else
+    echo "Telegram has already been installed"
+
+fi
