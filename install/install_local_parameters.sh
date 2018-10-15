@@ -27,7 +27,6 @@ if [[ ! -f $BASEDIR/profile ]]; then
     echo "#!/bin/bash" >> $BASEDIR/profile
 fi
 
-
 for param in "${local_parameters[@]}"; do
     check_for_local_parameter $param
 done

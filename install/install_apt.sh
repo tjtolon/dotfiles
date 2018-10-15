@@ -12,3 +12,8 @@ sudo apt install -y \
 sudo apt install -y \
 	ttf-unifont \
 	silversearcher-ag
+
+
+sudo apt install -y \
+	   inotify-tools \
+     rsync

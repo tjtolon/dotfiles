@@ -1,3 +1,5 @@
+. ~/dotfiles/profile
+export PATH=~/dotfiles/scripts:$PATH
 export PATH="/home/tatu/anaconda3/bin:$PATH"
 export PATH="$HOME/.local/bin:$PATH"
 
@@ -28,4 +30,3 @@ export AWT_TOOLKIT=MToolkit
 export TERMINAL=gnome-terminal
 export LADIMO=/home/tatu/ladimo/ladimo-core/test_data/set_01/
 export LADIMO_ROOT=/home/tatu/ladimo/ladimo-core/
-. ~/dotfiles/profile

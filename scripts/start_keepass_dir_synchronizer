@@ -1,0 +1,10 @@
+#!/bin/bash
+
+function f() {
+    dir=~/keepass/
+    while inotifywait -r -e modify,create,delete $dir; do
+        notify-send "keepaas päivitetty"
+        rsync -avz $dir password_server:~/keepass/
+    done
+}
+f &
