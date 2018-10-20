@@ -16,6 +16,6 @@ else
     echo $dl_url
     wget $dl_url
     filename=${dl_url##*/}
-    dpkg -i $filename
+    sudo dpkg -i $filename
     rm $filename
 fi
