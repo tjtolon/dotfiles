@@ -7,6 +7,13 @@ function f() {
         return
     fi
 
+    if [[ ! -d $dir ]]; then
+        notify-send "Ei ole Keepass kansiota, tehdään ja ladataan"
+        mkdir $dir
+        rsync -avz password_server:~/keepass/ $dir
+    fi
+
+
     while inotifywait -r -e modify,create,delete $dir; do
         notify-send "KeePass päivitetty"
         rsync -avz $dir password_server:~/keepass/

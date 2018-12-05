@@ -10,6 +10,7 @@ export PATH="$HOME/.cabal/bin:$PATH"
 
 export PATH=$PATH:$HOME"/pycharm-current/bin"
 export PATH=$PATH:$HOME"/clion-current/bin"
+export PATH=$HOME"/clion-current/bin/cmake/linux/bin":$PATH
 export PATH=$PATH:$HOME"/.Nozbe"
 export PATH=$PATH:$HOME"/Telegram"
 
@@ -20,6 +21,10 @@ export PATH=$PATH:$HOME"/intelFPGA/embedded/host_tools/altera/preloadergen"
 export PATH=$PATH:$HOME"/intelFPGA/modelsim_ase/linuxaloem"
 export QSYS_ROOTDIR=$HOME"/intelFPGA/quartus/sopc_builder/bin"
 export SOCEDS_DEST_ROOT=$HOME"/intelFPGA/embedded"
+
+export PATH=$PATH:$HOME"/go/bin"
+export PATH=$PATH:$HOME"/mcu/sam-ba_cdc_linux"
+export PATH=$HOME"/mcu/gcc-arm-none-eabi-7-2018-q2-update/bin":$PATH
 
 export VULKAN_SDK=$HOME"/VulkanSDK/current/x86_64"
 export PATH=$PATH:$VULKAN_SDK"/bin"
