@@ -1,5 +1,6 @@
 . ~/dotfiles/profile
 export PATH=~/dotfiles/scripts:$PATH
+export PATH=~/dotfiles/bin/:$PATH
 export PATH="/home/tatu/anaconda3/bin:$PATH"
 export PATH="$HOME/.local/bin:$PATH"
 
@@ -34,4 +35,6 @@ export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$VULKAN_SDK"/lib"
 export AWT_TOOLKIT=MToolkit
 export TERMINAL=gnome-terminal
 export LADIMO=/home/tatu/ladimo/ladimo-core/test_data/set_01/
-export LADIMO_ROOT=/home/tatu/ladimo/ladimo-core/
+export LADIMO_ROOT=/home/tatu/ladimo/ladimo-core
+
+export EDITOR=em

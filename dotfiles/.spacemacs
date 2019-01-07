@@ -319,6 +319,8 @@ layers configuration.
 This is the place where most of your configurations should be done. Unless it is
 explicitly specified that a variable should be set before a package is loaded,
 you should place your code here."
+  (evil-leader/set-key
+    "q q" 'spacemacs/frame-killer)
   (setenv "WORKON_HOME" "/home/tatu/anaconda3")
   (defun print-date ()
     (interactive)
