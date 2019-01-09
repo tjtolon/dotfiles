@@ -38,3 +38,4 @@ export LADIMO=/home/tatu/ladimo/ladimo-core/test_data/set_01/
 export LADIMO_ROOT=/home/tatu/ladimo/ladimo-core
 
 export EDITOR=em
+ssh-add ~/.ssh/github_rsa
