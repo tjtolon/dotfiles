@@ -310,6 +310,7 @@ executes.
  This function is mostly useful for variables that need to be set
 before packages are loaded. If you are unsure, you should try in setting them in
 `dotspacemacs/user-config' first."
+  (setenv "WORKON_HOME" "/home/tatu/anaconda3/envs/Ladimo/bin")
   )
 
 (defun dotspacemacs/user-config ()
@@ -321,7 +322,6 @@ explicitly specified that a variable should be set before a package is loaded,
 you should place your code here."
   (evil-leader/set-key
     "q q" 'spacemacs/frame-killer)
-  (setenv "WORKON_HOME" "/home/tatu/anaconda3")
   (defun print-date ()
     (interactive)
     (insert

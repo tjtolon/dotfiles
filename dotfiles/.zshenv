@@ -36,6 +36,6 @@ export AWT_TOOLKIT=MToolkit
 export TERMINAL=gnome-terminal
 export LADIMO=/home/tatu/ladimo/ladimo-core/test_data/set_01/
 export LADIMO_ROOT=/home/tatu/ladimo/ladimo-core
+export PATH=$PATH:$LADIMO_ROOT/build-release/apps/ladimo-client
 
-export EDITOR=em
-ssh-add ~/.ssh/github_rsa
+export EDITOR=nano
