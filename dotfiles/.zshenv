@@ -39,3 +39,7 @@ export LADIMO_ROOT=/home/tatu/ladimo/ladimo-core
 export PATH=$PATH:$LADIMO_ROOT/build-release/apps/ladimo-client
 
 export EDITOR=nano
+
+export JAVA_HOME=$HOME/jdk-12.0.1
+export JDK_HOME=$HOME/jdk-12.0.1
+export PATH=$JAVA_HOME/bin:$PATH
