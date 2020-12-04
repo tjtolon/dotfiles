@@ -27,16 +27,30 @@ export PATH=$PATH:$HOME"/go/bin"
 export PATH=$PATH:$HOME"/mcu/sam-ba_cdc_linux"
 export PATH=$HOME"/mcu/gcc-arm-none-eabi-7-2018-q2-update/bin":$PATH
 
+# Vulkan and CUDA and all that
 export VULKAN_SDK=$HOME"/VulkanSDK/current/x86_64"
 export PATH=$PATH:$VULKAN_SDK"/bin"
 export VK_LAYER_PATH=$VULKAN_SDK"/etc/explicit_layer.d"
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$VULKAN_SDK"/lib"
+export PATH=$PATH:/usr/local/cuda/bin
 
 export AWT_TOOLKIT=MToolkit
 export TERMINAL=gnome-terminal
-export LADIMO=/home/tatu/ladimo/ladimo-core/test_data/set_01/
-export LADIMO_ROOT=/home/tatu/ladimo/ladimo-core
+
+export ASAN_OPTIONS=protect_shadow_gap=0:detect_leaks=1
+export UBSAN_OPTIONS=print_stacktrace=1:suppressions=/home/tatu/ladimo/core/scripts/suppressions/ubsan.supp
+export PATH=/home/tatu/ladimo/core/ext-libs/bin:/usr/local/cuda/bin:$PATH
+export LADIMO_ROOT=/home/tatu/ladimo/core
 export PATH=$PATH:$LADIMO_ROOT/build-release/apps/ladimo-client
+export PATH=$PATH:$LADIMO_ROOT/build-release/apps/ladimo-server
+export PATH=$PATH:$LADIMO_ROOT/build-release/apps/ladimo-calibrator
+export PATH=$PATH:$LADIMO_ROOT/build-release/apps/ladimo-simulator
+export PATH=$PATH:$LADIMO_ROOT/build-release/apps/imshow
+export LADIMO_CLIENT_DATA_DIR=/home/tatu/ladimo/core/data-dirs/ladimo-client/
+export LADIMO_SERVER_DATA_DIR=/home/tatu/ladimo/core/data-dirs/ladimo-server/
+export LADIMO_SIMULATOR_DATA_DIR=/home/tatu/ladimo/core/data-dirs/ladimo-simulator/
+export LADIMO_CALIBRATOR_DATA_DIR=/home/tatu/ladimo/core/data-dirs/ladimo-calibrator/
+
 
 export EDITOR=nano
 

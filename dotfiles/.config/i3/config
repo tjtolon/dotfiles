@@ -162,5 +162,10 @@ exec --no-startup-id feh --randomize --bg-fill /home/tatu/Pictures/wallpapers/*
 bindsym $mod+F5 exec "backlight.sh -2"
 bindsym $mod+F6 exec "backlight.sh +2"
 
+bindsym $mod+XF86Display exec "xrandr-toggle.py"
+bindsym $mod+F7 exec "xrandr-toggle.py"
+
+
+
 for_window [id=35651586 title="demo"] floating enable
 for_window [class="^jetbrains-.+"][window_type=dialog] focus

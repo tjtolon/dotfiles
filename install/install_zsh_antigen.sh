@@ -1,5 +1,5 @@
 #!/bin/bash
-susdo apt install -y curl zsh
+sudo apt install -y curl zsh
 
 if [[ ! -f ~/.antigen/antigen.zsh ]] ; then
     mkdir ~/.antigen
