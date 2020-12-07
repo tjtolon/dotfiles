@@ -1,6 +1,7 @@
 . ~/dotfiles/profile
 export PATH=~/dotfiles/scripts:$PATH
-export PATH=~/dotfiles/bin/:$PATH
+export PATH=~/dotfiles/bin:$PATH
+export PATH=~/work-scripts:$PATH
 export PATH="/home/tatu/anaconda3/bin:$PATH"
 export PATH="$HOME/.local/bin:$PATH"
 
@@ -37,10 +38,7 @@ export PATH=$PATH:/usr/local/cuda/bin
 export AWT_TOOLKIT=MToolkit
 export TERMINAL=gnome-terminal
 
-export ASAN_OPTIONS=protect_shadow_gap=0:detect_leaks=1
-export UBSAN_OPTIONS=print_stacktrace=1:suppressions=/home/tatu/ladimo/core/scripts/suppressions/ubsan.supp
-export PATH=/home/tatu/ladimo/core/ext-libs/bin:/usr/local/cuda/bin:$PATH
-export LADIMO_ROOT=/home/tatu/ladimo/core
+. /home/tatu/ladimo/core/setup_env.sh
 export PATH=$PATH:$LADIMO_ROOT/build-release/apps/ladimo-client
 export PATH=$PATH:$LADIMO_ROOT/build-release/apps/ladimo-server
 export PATH=$PATH:$LADIMO_ROOT/build-release/apps/ladimo-calibrator
@@ -50,7 +48,6 @@ export LADIMO_CLIENT_DATA_DIR=/home/tatu/ladimo/core/data-dirs/ladimo-client/
 export LADIMO_SERVER_DATA_DIR=/home/tatu/ladimo/core/data-dirs/ladimo-server/
 export LADIMO_SIMULATOR_DATA_DIR=/home/tatu/ladimo/core/data-dirs/ladimo-simulator/
 export LADIMO_CALIBRATOR_DATA_DIR=/home/tatu/ladimo/core/data-dirs/ladimo-calibrator/
-
 
 export EDITOR=nano
 
