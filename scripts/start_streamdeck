@@ -1,0 +1,13 @@
+#!/bin/env sh
+
+if ! (command -v "streamdeck" >/dev/null 2>&1); then
+    echo "no streamdeck"
+    exit 1
+fi
+
+if ! (lsusb | grep -q "0fd9"); then
+    echo "streameck device not connected"
+    exit 1
+fi
+
+streamdeck -n
